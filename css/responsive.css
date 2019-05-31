@@ -1,0 +1,374 @@
+@media screen and (max-width: 2000px) {
+  #project {
+    background-image: url("../slike/pexels-photo-380337.jpeg"); }
+    #project #naslov {
+      padding-top: 3%; }
+    #project #projekat {
+      width: 240px;
+      left: 45%; }
+      #project #projekat #slika {
+        width: 220px;
+        height: 295px; } }
+@media screen and (max-width: 1600px) {
+  #project #projekat {
+    left: 42%; } }
+@media screen and (max-width: 1490px) {
+  #contact #tabela {
+    left: 30%; } }
+@media screen and (max-width: 1650px) {
+  #project {
+    background-image: url("../slike/photo.jpg"); }
+    #project #naslov {
+      padding-top: 1%; }
+    #project #projekat {
+      width: 200px;
+      left: 43%;
+      top: 18%; }
+      #project #projekat #slika {
+        width: 160px;
+        height: 235px; } }
+@media screen and (max-width: 1380px) {
+  #project #projekat {
+    top: 20%;
+    left: 20%; }
+    #project #projekat #slika {
+      width: 150px;
+      height: 225px; } }
+@media screen and (max-width: 1370px) {
+  #project #projekat {
+    top: 20%;
+    left: 42%; }
+    #project #projekat #slika {
+      width: 150px;
+      height: 225px; } }
+@media screen and (max-width: 1360px) {
+  #home #navigacija {
+    right: 2%; }
+    #home #navigacija ul li a {
+      font-size: 29px; }
+  #home #welcome {
+    font-size: 22px;
+    right: 1%; }
+
+  #project #projekat {
+    top: 25%; }
+    #project #projekat #slika {
+      width: 94px;
+      height: 139px;
+      left: 15%; }
+    #project #projekat #link {
+      left: 20%; } }
+#contact #tabela {
+  font-size: 18px; }
+#contact #forma {
+  left: 0%;
+  padding-left: 43%; }
+
+@media screen and (max-width: 1250px) {
+  #home #welcome {
+    background-color: rgba(200, 200, 200, 0.6);
+    top: 57%;
+    right: 7%;
+    padding: 15px;
+    font-size: 18px; }
+  #home #navigacija {
+    width: 100%;
+    background-color: rgba(200, 200, 200, 0.6); } }
+@media screen and (max-width: 1245px) {
+  #project #projekat {
+    left: 41%; } }
+@media screen and (max-width: 1090px) {
+  #aboutMe #drzac #ikona {
+    top: 70%; }
+    #aboutMe #drzac #ikona i {
+      font-size: 150px; } }
+@media screen and (max-width: 1085px) {
+  #project #projekat {
+    left: 40%; } }
+@media screen and (max-width: 1060px) {
+  #skils #blok .vestine {
+    font-size: 25px; }
+
+  #aboutMe #drzac #ikona {
+    right: 100px;
+    top: 70%; }
+    #aboutMe #drzac #ikona i {
+      font-size: 150px; } }
+@media screen and (max-width: 1050px) {
+  #project #projekat {
+    left: 40%; }
+
+  #aboutme #drzac #ikona {
+    top: 48%;
+    right: 200px; }
+    #aboutme #drzac #ikona i {
+      font-size: 150px; }
+
+  #contact #forma {
+    padding-left: 35%; } }
+@media screen and (max-width: 1245px) {
+  #project #projekat {
+    left: 40%; } }
+@media screen and (max-width: 980px) {
+  #home #welcome {
+    background-color: rgba(200, 200, 200, 0.6);
+    top: 57%;
+    right: 7%;
+    padding: 15px;
+    font-size: 18px; }
+  #home #navigacija {
+    width: 100%;
+    background-color: rgba(200, 200, 200, 0.6); }
+
+  #contact #tabela {
+    right: 28%;
+    top: 20%;
+    font-size: 20px; }
+  #contact #forma {
+    right: 33%; } }
+@media screen and (max-width: 960px) {
+  #skils {
+    height: 1200px; }
+    #skils #edukacija h1 {
+      font-size: 40px;
+      margin: 8px; }
+    #skils #blok {
+      display: flex;
+      flex-direction: column;
+      top: 100px; }
+      #skils #blok .vestine {
+        width: 87%;
+        margin: 30px; } }
+@media screen and (max-width: 945px) {
+  #aboutMe #drzac #ikona {
+    display: none; } }
+@media screen and (max-width: 920px) {
+  #contact #tabela {
+    left: 20%; } }
+@media screen and (max-width: 885px) {
+  #project #projekat {
+    left: 38%; } }
+@media screen and (max-width: 810px) {
+  #contact #tabela {
+    right: 24%; } }
+@media screen and (max-width: 805px) {
+  #project #projekat {
+    left: 38%; } }
+@media screen and (max-width: 755px) {
+  #project #projekat {
+    left: 37%; } }
+@media screen and (max-width: 800px) {
+  #skils {
+    height: 1500px; } }
+@media screen and (max-width: 740px) {
+  #home #welcome {
+    background-color: rgba(200, 200, 200, 0.6);
+    top: 57%;
+    right: 7%;
+    padding: 15px;
+    font-size: 14px; }
+  #home #navigacija {
+    width: 100%;
+    background-color: rgba(200, 200, 200, 0.6); }
+    #home #navigacija a {
+      font-size: 21px;
+      padding-left: 11px; }
+
+  #project #projekat {
+    left: 36%; }
+
+  #skils {
+    height: 1400px; }
+
+  #aboutMe #tekst {
+    right: 2%;
+    font-size: 16px; }
+
+  #contact #tabela {
+    right: 20%;
+    top: 23%; }
+  #contact #forma {
+    right: 28%; } }
+@media screen and (max-width: 700px) {
+  #project #projekat {
+    left: 35%; } }
+@media screen and (max-width: 725px) {
+  #home #welcome {
+    font-size: 15px; }
+  #home #navigacija ul li a {
+    font-size: 23px; } }
+@media screen and (max-width: 680px) {
+  #aboutMe {
+    height: 850px;
+    display: flex;
+    flex-direction: column; }
+    #aboutMe #slika {
+      width: 100%; }
+    #aboutMe #drzac {
+      width: 90%;
+      left: 5%; } }
+@media screen and (max-width: 655px) {
+  #contact #tabela {
+    font-size: 18px; } }
+@media screen and (max-width: 645px) {
+  #project #projekat {
+    left: 34%; }
+
+  #contact #forma {
+    padding-left: 20%; } }
+@media screen and (max-width: 600px) {
+  #home #welcome {
+    font-size: 13px; }
+  #home #navigacija ul li a {
+    font-size: 18px; }
+
+  #project #projekat {
+    left: 32%; } }
+@media screen and (max-width: 590px) {
+  #skils #blok .vestine {
+    font-size: 20px; } }
+@media screen and (max-width: 560px) {
+  #project {
+    height: 700px;
+    background-image: url("../slike/pexels-photo-380337.jpeg"); }
+    #project #naslov {
+      padding-top: 20%; }
+    #project #projekat {
+      left: 26%; }
+      #project #projekat #slika {
+        width: 190px;
+        height: 265px; }
+      #project #projekat #link {
+        font-size: 28px;
+        left: 35%; }
+
+  #contact #tabela {
+    font-size: 16px; } }
+@media screen and (max-width: 520px) {
+  #contact #tabela {
+    right: 20%; } }
+@media screen and (max-width: 510px) {
+  #project #projekat {
+    left: 23%; }
+
+  #aboutMe {
+    height: 1050px; } }
+@media screen and (max-width: 480px) {
+  #home {
+    background-position: -250px center; }
+    #home #welcome {
+      background-color: rgba(200, 200, 200, 0.6);
+      top: 57%;
+      right: 7%;
+      padding: 15px;
+      font-size: 12px; }
+    #home #navigacija {
+      width: 40%;
+      top: 6%;
+      background-color: rgba(200, 200, 200, 0.6);
+      right: 55%;
+      border-radius: 10px; }
+      #home #navigacija ul {
+        justify-content: space-around;
+        flex-direction: column; }
+        #home #navigacija ul li {
+          margin: 20px; }
+          #home #navigacija ul li:first-child {
+            border-left: 5px solid #009900; }
+      #home #navigacija a {
+        font-size: 16px;
+        padding-left: 11px; }
+
+  #project #projekat {
+    left: 21%; }
+
+  #aboutMe {
+    display: flex;
+    flex-direction: column; }
+    #aboutMe #tekst {
+      width: 90%;
+      font-size: 16px;
+      top: 2800px; }
+      #aboutMe #tekst h1 {
+        font-size: 20px; }
+      #aboutMe #tekst #okvir {
+        background-color: rgba(200, 200, 200, 0.8);
+        border: 0px; }
+    #aboutMe #ikona {
+      display: none; }
+    #aboutMe #slika {
+      top: 2300px;
+      width: 90%; }
+
+  #contact {
+    height: 750px;
+    background-image: url("../slike/pexels-photo-1092364.jpeg"); }
+    #contact #tabela {
+      left: 10%;
+      top: 15%;
+      font-size: 18px; }
+    #contact #forma {
+      color: #606060; }
+      #contact #forma #osalji {
+        background-color: #B0B0B0;
+        color: #303030; } }
+@media screen and (max-width: 450px) {
+  #home #welcome {
+    font-size: 8px; }
+  #home #navigacija ul li a {
+    font-size: 10px; }
+
+  #project #projekat {
+    left: 20%; }
+
+  #skils {
+    height: 1400px; } }
+@media screen and (max-width: 420px) {
+  #aboutMe {
+    height: 1150px; } }
+@media screen and (max-width: 410px) {
+  #project #projekat {
+    left: 18%; }
+
+  #contact #tabela {
+    width: 219px;
+    height: 103px;
+    left: 0px; }
+  #contact #forma {
+    left: 0px; } }
+@media screen and (max-width: 390px) {
+  #contact #tabela {
+    width: 209px;
+    height: 93px;
+    right: 39%;
+    font-size: 15px; } }
+@media screen and (max-width: 388px) {
+  #aboutMe {
+    height: 1300px; } }
+@media screen and (max-width: 377px) {
+  #skils {
+    height: 1500px; } }
+#contact #forma {
+  width: 90%; }
+  #contact #forma input {
+    width: 100%; }
+  #contact #forma #mess {
+    width: 90%; }
+
+@media screen and (max-width: 350px) {
+  #aboutMe {
+    height: 1500px; } }
+@media screen and (max-width: 360px) {
+  #project #projekat {
+    left: 16%; } }
+@media screen and (max-width: 340px) {
+  #project #projekat {
+    left: 13%; }
+
+  #contact #forma {
+    width: 100%; }
+
+  #aboutMe {
+    height: 1700px; } }
+
+/*# sourceMappingURL=responsive.css.map */

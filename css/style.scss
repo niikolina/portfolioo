@@ -1,0 +1,245 @@
+body{
+    font-family: 'Caveat', cursive;
+}
+$crna: #303030;
+$zelena: #009900;
+
+*{
+    margin:0px; 
+    padding:0px;
+    box-sizing:border-box;
+}
+ul{
+    list-style-type:none;
+    display: flex;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+
+/*NASLOVNA*/ 
+#home {
+    width:100%;
+    height: 801px;
+    background-image: url("../slike/NNy.jpg");
+    background-repeat: no-repeat;
+    background-position: left; 
+    position: relative;
+    box-shadow: 5px 10px 8px 20px $crna;
+
+    #navigacija {
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    ul {
+        display:flex;
+        justify-content:center;  
+        li{
+            border-left:5px solid  $zelena;
+            display:inline-block;
+            &:first-child{
+                border-left: none;
+            }
+            a{
+                color:black;								
+                font-size:29px;
+                text-transform:uppercase;
+                padding:0px 7px;	
+                }
+            a:hover{
+                background-color:rgba(#c2c2a3, 0.2);
+                 
+            } 			
+        }
+    }		
+}
+#welcome{
+    
+    border-radius: 10px;
+    position: absolute;
+    right: 1%;
+    top: 47%;
+    font-size: 22px;
+}
+}
+
+
+/*PROJEKT*/
+#project {
+    width:100%;
+    height: 750px;
+    background-image: url("../slike/photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+    top: 50px;
+    #naslov{
+        text-align: center;
+        font-size: 22px;
+            }
+    #projekat{
+        width: 200px;
+        height: 310px;
+        position:absolute;
+        left:42%; 
+        top: 16%;     
+        #slika{
+            width:190px;
+            height: 265px;
+            border-radius: 10px;
+            background-image: url("../slike/images.jpg");
+            background-repeat: no-repeat;
+            background-position: center; 
+            position: relative;
+            }
+            #link {
+                position:absolute;
+                font-size: 25px;
+                text-align:center;
+                left: 20%;
+            }
+        }
+    }
+
+
+/*SKILS*/
+#skils{
+    width:100%;
+    height:750px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    color: #fff;
+    #blok{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        position:absolute;
+        top:50px;
+        .vestine{
+            padding: 35px;
+            box-shadow: 10px 20px #888888;
+            ul{
+                display: flex;
+                flex-direction: column;
+                padding-top: 15px;
+                li{
+                    text-align: center;
+                }
+            }
+            width: 30%;
+            height:auto;
+            background-color: rgba(   #ffffe6,0.6);
+            color: #2e2e1f;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 27px;
+            h2{
+                text-align:center;
+                color: #000000;
+            }
+            
+        }
+    }
+}
+
+/*ABOUT ME*/
+#aboutMe {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 5px 10px 8px 20px $crna;
+    #slika{
+        width:48%;
+        height: 100%;
+        background-image: url("../slike/NN2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #drzac{
+        width:48%;
+        height: 100%; 
+        position: relative;
+        #tekst { 
+            position: absolute;
+            height:auto;
+            font-size: 20px;
+            text-align: center;
+            color: $zelena;
+            top:5%;
+            right:10%;
+            #okvir{
+                border: 2px solid  $zelena;
+                border-radius:10px;
+                padding: 20px;
+                color:#000;
+            }
+        }
+        #ikona{ 
+            position: absolute;
+            top:48%;
+            right: 200px;
+            top: 60%;
+            i{
+                font-size: 200px;
+                color:#D8D8D8;
+
+
+            }
+        }
+    }
+}
+
+/*CONTACT*/
+#contact{
+    margin-top:30px;
+    width: 100%;;
+    height:816px;
+    background-image: url("../slike/pexels1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+    #tabela {
+        position: absolute;
+        right: 34%;
+        top: 20%;
+        font-size: 23px;
+        text-align:center;
+        color:	#505050;
+        } 
+    #forma{
+        width:100%;
+        position: absolute;
+        right: 40%;
+        top: 50%;
+        font-size: 20px;
+        color: gray;
+        #mess{
+            width:100%;
+            height:200px;
+        }
+        input{
+            border-radius: 10px;
+            text-align: center;
+            background-color:rgba( #dfbf9f ,0.3);
+            color: #111;
+            border-color: transparent;
+        }
+        #posalji{
+            width:45%;
+            margin:5px;				
+            background-color: 	#dfbf9f ;	
+            color: gray;							
+            padding:10px;
+            cursor:pointer;
+            border:none;
+            display:block;}
+    }
+}
